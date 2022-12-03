@@ -2,7 +2,7 @@
  ******************************************************************************
  **Version 2.2.1
  * @file           : Cooling_sytsem_project.ino
- * @author         : Bayoumi,Mohanad,Mattar,Abdo,Israa
+ * @author         : Bayoumi
  * @brief          : contains DHT11,LCD,Arduino uno,fan
  ******************************************************************************
  */
