@@ -7,12 +7,9 @@
  ******************************************************************************
  */
 
-/* ********************** Includes Section Start ********************** */
 #include <LiquidCrystal.h>
 #include "DHT.h"
-/* ********************** Includes Section End   ********************** */
 
-/* ********************** Macro Section Start ************************* */
 LiquidCrystal lcd(4, 5, 0, 1, 2, 3); //declartion of lcd pins
 //4 RS,5 E
 int fan=12;//fan pin
@@ -24,9 +21,7 @@ void setup() {
  dht.begin();
   lcd.begin(16, 2);
 }
-/* ********************** Macro Section End   ************************* */
 
-/* ********************** main-Program Section Start ************* */
 
 void loop() {
   pinMode(fan, OUTPUT);
@@ -63,7 +58,7 @@ void loop() {
     }
   delay(500);
   }
-/* ********************** main-Program Section End ************* */
+
 
 /**
  ******************************************************************************
